@@ -8,7 +8,7 @@ import { StyleSheet } from 'react-native';
  */
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'white',
+    backgroundColor: 'rgba(0, 0, 0, 0.0)',
   },
   containerSection: {
     flexDirection: 'row',
@@ -18,11 +18,10 @@ const styles = StyleSheet.create({
   },
   title: {
     flex: 1,
-    backgroundColor: 'red',
     textAlign: 'left',
     fontSize: 22,
     fontWeight: 'bold',
-    color: 'black',
+    color: 'white',
   },
 });
 
